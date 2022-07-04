@@ -40,7 +40,8 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-.expereince-width{
-    padding-left: 5%;
-    padding-right: 5%;
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
