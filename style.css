@@ -8,7 +8,7 @@ h1{
 .header-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -39,4 +39,8 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.expereince-width{
+    padding-left: 5%;
+    padding-right: 5%;
 }
