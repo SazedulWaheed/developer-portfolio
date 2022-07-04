@@ -1,12 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 h1{
     font-size: 50px;
 }
 .header-color{
     color: orange;
+}
+p{
+    color: dimgray;
 }
 .flexible-container{
     display: flex;
@@ -44,4 +48,24 @@ h1{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    background-position-y: 70%;
+}
+.experience-item{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    box-shadow: 10px 10px 20px gray;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
